@@ -1,9 +1,15 @@
 @charset "utf-8";
 
+
 html {
     font-size: 10px;
+
 }
 
+body{
+    max-width: 1100px;
+    font-family: 'Noto Serif JP';
+}
 
 img {
     width: 100%;
@@ -17,6 +23,20 @@ header {
     height: 700px;
     position: relative;
 
+}
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    padding:15px 0px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+header ul li{
+
+    padding: 0px 10px;
 }
 
 header .menu a {
@@ -34,8 +54,34 @@ header h1 {
     writing-mode: vertical-rl;
     margin: 0 auto;
     padding: 120px 0px;
+
 }
 
+#main{
+    background-color: #0E1C29;
+    color: #ffffff;
+}
+#main .main_grop{
+    margin: 0 auto;
+    
+
+
+}
+
+#main .item{
+    display: flex;
+    width:1000px;
+    margin: 0 auto;
+    font-size: 2.2rem;
+}
+
+#main .item img{
+    width: 600px;
+}
+
+footer .footer-logo{
+    width: 120px; 
+}
 
 
 
